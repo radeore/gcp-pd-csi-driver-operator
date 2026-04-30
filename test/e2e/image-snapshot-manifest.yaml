@@ -1,7 +1,7 @@
 StorageClass:
   FromExistingClassName: ssd-csi
 SnapshotClass:
-  FromName: true
+  FromFile: images-volumesnapshotclass.yaml
 DriverInfo:
   Name: pd.csi.storage.gke.io
   SupportedFsType:
